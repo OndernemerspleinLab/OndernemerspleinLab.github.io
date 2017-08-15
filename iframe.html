@@ -9,16 +9,59 @@
             window.__REACT_DEVTOOLS_GLOBAL_HOOK__ = window.parent.__REACT_DEVTOOLS_GLOBAL_HOOK__;
           }
         </script>
-        <title>React Storybook</title>
+        <title>Storybook</title>
         <meta name="robots" content="noindex"/>
 <link rel="stylesheet" href="css/style.css">
 <script src="http://localhost:35729/livereload.js"></script>
+<style>
+    @font-face {
+        font-family: "RijksOverheidSans";
+        src: url("/fonts/rijksoverheidsanstext-regular_3_0-webfont.woff2") format("woff2"),
+             url("/fonts/rijksoverheidsanstext-regular_3_0-webfont.woff") format("woff");
+        font-weight: normal;
+        font-style: normal;
+    }
+
+    @font-face {
+        font-family: "RijksOverheidSans";
+        src: url("/fonts/rijksoverheidsanstext-italic_3_0-webfont.woff2") format("woff2"),
+             url("/fonts/rijksoverheidsanstext-italic_3_0-webfont.woff") format("woff");
+        font-weight: normal;
+        font-style: italic;
+    }
+
+    @font-face {
+        font-family: "RijksOverheidSans";
+        src: url("/fonts/rijksoverheidsansheading-bold_3_0-webfont.woff2") format("woff2"),
+             url("/fonts/rijksoverheidsansheading-bold_3_0-webfont.woff") format("woff");
+        font-weight: bold;
+        font-style: normal;
+    }
+    @font-face {
+        font-family: "RijksOverheidSans";
+        src: url("/fonts/rijksoverheidsansheading-bold_3_0-webfont.woff2") format("woff2"),
+             url("/fonts/rijksoverheidsansheading-bold_3_0-webfont.woff") format("woff");
+        font-weight: bold;
+        font-style: italic;
+    }
+</style>
+<script>
+    document.documentElement.classList.add('is-webfont');
+
+    document.addEventListener('keydown', ({code, ctrlKey, shiftKey, altKey}) => {
+        // toggle fallbackfont
+        if (ctrlKey && !shiftKey && altKey && code === 'KeyF') {
+            document.documentElement.classList.toggle('is-webfont');
+            document.documentElement.classList.toggle('is-fallbackfont');
+        }
+    });
+</script>
         
       </head>
       <body>
         <div id="root"></div>
         <div id="error-display"></div>
-        <script src="static/preview.1a83dd359b25e20bb14d.bundle.js"></script>
+        <script src="static/preview.4ed3b47f99539c6ed614.bundle.js"></script>
       </body>
     </html>
   

@@ -1,0 +1,60 @@
+{
+	"fonts": [
+		{
+			"family": "RijksOverheidSans",
+			"format": "woff2",
+			"weight": "normal",
+			"style": "normal",
+			"fileName": "rijksoverheidsanstext-regular_3_0-webfont.woff2"
+		},
+		{
+			"family": "RijksOverheidSans",
+			"format": "woff",
+			"weight": "normal",
+			"style": "normal",
+			"fileName": "rijksoverheidsanstext-regular_3_0-webfont.woff"
+		},
+		{
+			"family": "RijksOverheidSans",
+			"format": "woff2",
+			"weight": "normal",
+			"style": "italic",
+			"fileName": "rijksoverheidsanstext-italic_3_0-webfont.woff2"
+		},
+		{
+			"family": "RijksOverheidSans",
+			"format": "woff",
+			"weight": "normal",
+			"style": "italic",
+			"fileName": "rijksoverheidsanstext-italic_3_0-webfont.woff"
+		},
+		{
+			"family": "RijksOverheidSans",
+			"format": "woff2",
+			"weight": "bold",
+			"style": "normal",
+			"fileName": "rijksoverheidsansheading-bold_3_0-webfont.woff2"
+		},
+		{
+			"family": "RijksOverheidSans",
+			"format": "woff",
+			"weight": "bold",
+			"style": "normal",
+			"fileName": "rijksoverheidsansheading-bold_3_0-webfont.woff"
+		},
+		{
+			"family": "RijksOverheidSans",
+			"format": "woff2",
+			"weight": "bold",
+			"style": "italic",
+			"fileName": "rijksoverheidsansheading-bold_3_0-webfont.woff2"
+		},
+		{
+			"family": "RijksOverheidSans",
+			"format": "woff",
+			"weight": "bold",
+			"style": "italic",
+			"fileName": "rijksoverheidsansheading-bold_3_0-webfont.woff"
+		}
+	]
+}
