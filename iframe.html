@@ -10,14 +10,14 @@
           }
         </script>
         <title>Storybook</title>
-        <meta name="robots" content="noindex"/>
+        <meta name="robots" content="noindex" />
 <link rel="stylesheet" href="css/style.css">
 <script src="http://localhost:35729/livereload.js"></script>
 <style>
     @font-face {
         font-family: "RijksOverheidSans";
         src: url("/fonts/rijksoverheidsanstext-regular_3_0-webfont.woff2") format("woff2"),
-             url("/fonts/rijksoverheidsanstext-regular_3_0-webfont.woff") format("woff");
+        url("/fonts/rijksoverheidsanstext-regular_3_0-webfont.woff") format("woff");
         font-weight: normal;
         font-style: normal;
     }
@@ -25,7 +25,7 @@
     @font-face {
         font-family: "RijksOverheidSans";
         src: url("/fonts/rijksoverheidsanstext-italic_3_0-webfont.woff2") format("woff2"),
-             url("/fonts/rijksoverheidsanstext-italic_3_0-webfont.woff") format("woff");
+        url("/fonts/rijksoverheidsanstext-italic_3_0-webfont.woff") format("woff");
         font-weight: normal;
         font-style: italic;
     }
@@ -33,14 +33,15 @@
     @font-face {
         font-family: "RijksOverheidSans";
         src: url("/fonts/rijksoverheidsansheading-bold_3_0-webfont.woff2") format("woff2"),
-             url("/fonts/rijksoverheidsansheading-bold_3_0-webfont.woff") format("woff");
+        url("/fonts/rijksoverheidsansheading-bold_3_0-webfont.woff") format("woff");
         font-weight: bold;
         font-style: normal;
     }
+
     @font-face {
         font-family: "RijksOverheidSans";
         src: url("/fonts/rijksoverheidsansheading-bold_3_0-webfont.woff2") format("woff2"),
-             url("/fonts/rijksoverheidsansheading-bold_3_0-webfont.woff") format("woff");
+        url("/fonts/rijksoverheidsansheading-bold_3_0-webfont.woff") format("woff");
         font-weight: bold;
         font-style: italic;
     }
@@ -48,20 +49,21 @@
 <script>
     document.documentElement.classList.add('is-webfont');
 
-    document.addEventListener('keydown', ({code, ctrlKey, shiftKey, altKey}) => {
+    document.addEventListener('keydown', function (event) {
         // toggle fallbackfont
-        if (ctrlKey && !shiftKey && altKey && code === 'KeyF') {
+        if (event.ctrlKey && !event.shiftKey && event.altKey && event.code === 'KeyF') {
             document.documentElement.classList.toggle('is-webfont');
             document.documentElement.classList.toggle('is-fallbackfont');
         }
     });
+
 </script>
         
       </head>
       <body>
         <div id="root"></div>
         <div id="error-display"></div>
-        <script src="static/preview.4ed3b47f99539c6ed614.bundle.js"></script>
+        <script src="static/preview.eb98119a104e2ce0496f.bundle.js"></script>
       </body>
     </html>
   
