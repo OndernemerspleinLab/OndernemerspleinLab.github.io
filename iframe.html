@@ -51,7 +51,7 @@
 
     document.addEventListener('keydown', function (event) {
         // toggle fallbackfont
-        if (event.ctrlKey && !event.shiftKey && event.altKey && event.code === 'KeyF') {
+        if (event.ctrlKey && !event.shiftKey && event.altKey && event.keyCode === 70 /*'KeyF'*/) {
             document.documentElement.classList.toggle('is-webfont');
             document.documentElement.classList.toggle('is-fallbackfont');
         }
@@ -63,7 +63,7 @@
       <body>
         <div id="root"></div>
         <div id="error-display"></div>
-        <script src="static/preview.eb98119a104e2ce0496f.bundle.js"></script>
+        <script src="static/preview.d1a0ca9755b6606ba7dc.bundle.js"></script>
       </body>
     </html>
   
