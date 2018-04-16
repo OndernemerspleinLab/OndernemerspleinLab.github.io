@@ -1,16 +1,17 @@
-
-    <!DOCTYPE html>
-    <html>
-      <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <script>
-          if (window.parent !== window) {
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta content="IE=edge" http-equiv="X-UA-Compatible" />
+    <base target="_parent">
+    <script>
+        if (window.parent !== window) {
             window.__REACT_DEVTOOLS_GLOBAL_HOOK__ = window.parent.__REACT_DEVTOOLS_GLOBAL_HOOK__;
-          }
-        </script>
-        <title>Storybook</title>
-        <meta name="robots" content="noindex" />
+        }
+    </script>
+    <title>Storybook</title>
+    <meta name="robots" content="noindex" />
 <link rel="stylesheet" href="css/style.css">
 <script src="http://localhost:35729/livereload.js"></script>
 <style>
@@ -45,6 +46,10 @@
         font-weight: bold;
         font-style: italic;
     }
+
+    body {
+        background-color: white;
+    }
 </style>
 <script>
     document.documentElement.classList.add('is-webfont');
@@ -58,12 +63,9 @@
     });
 
 </script>
-        
-      </head>
-      <body>
-        <div id="root"></div>
-        <div id="error-display"></div>
-        <script src="static/preview.070f3a7f4d5cdc3a7392.bundle.js"></script>
-      </body>
-    </html>
-  
+</head>
+<body>
+<div id="root"></div>
+<div id="error-display"></div>
+<script type="text/javascript" src="static/preview.292c31ca285d4ea16c17.bundle.js"></script></body>
+</html>
